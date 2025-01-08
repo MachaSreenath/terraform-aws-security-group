@@ -19,6 +19,6 @@ variable "common_tags" {
     type = map
 }
 variable "sg_description" {
-    default = ""
+    # default = ""
     type = string
 }
