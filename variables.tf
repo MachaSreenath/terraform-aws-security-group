@@ -22,3 +22,7 @@ variable "sg_description" {
     # default = ""
     type = string
 }
+variable "sg_ingress_rules" {
+  type = list
+  default = []
+}
